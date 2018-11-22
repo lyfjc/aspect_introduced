@@ -9,7 +9,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import javax.swing.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = PerformConfig.class)
+//@ContextConfiguration(classes = PerformConfig.class)
+@ContextConfiguration("/perform_config.xml")
 public class IntroducedTest {
     @Autowired
     private Lili lili;
